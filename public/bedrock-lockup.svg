@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="80" y="120" width="260" height="120" rx="12"
+        fill="none" stroke="#00F0FF" stroke-width="6" filter="url(#glow)"/>
+  <text x="400" y="235"
+        font-size="120" font-weight="700" letter-spacing="8"
+        font-family="Orbitron, 'Bank Gothic', 'Eurostile', sans-serif"
+        fill="none" stroke="#00F0FF" stroke-width="4" filter="url(#glow)">BEDROCK</text>
+</svg>
